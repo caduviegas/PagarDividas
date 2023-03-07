@@ -6,7 +6,7 @@
     android:layout_height="wrap_content">
 
     <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/icon"
+        android:id="@+id/icone"
         android:layout_width="@dimen/dimen_48"
         android:layout_height="@dimen/dimen_48"
         android:layout_marginTop="@dimen/dimen_16"
@@ -20,11 +20,11 @@
         android:layout_marginStart="@dimen/dimen_16"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/icon"
-        app:layout_constraintTop_toTopOf="@id/icon">
+        app:layout_constraintStart_toEndOf="@id/icone"
+        app:layout_constraintTop_toTopOf="@id/icone">
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/value"
+            android:id="@+id/valor"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -33,7 +33,7 @@
             tools:text="@string/escolher_prestacao_item_valor_um" />
 
         <androidx.appcompat.widget.AppCompatTextView
-            android:id="@+id/date"
+            android:id="@+id/data"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -45,15 +45,15 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/description"
+        android:id="@+id/descricao"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="@dimen/dimen_16"
         android:maxLines="1"
         android:textColor="@color/blue_primary"
-        app:layout_constraintBottom_toBottomOf="@+id/icon"
+        app:layout_constraintBottom_toBottomOf="@+id/icone"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/icon"
+        app:layout_constraintStart_toEndOf="@id/icone"
         tools:text="@string/escolher_prestacao_item_descricao_um" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

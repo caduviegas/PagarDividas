@@ -42,7 +42,7 @@ public class PrestacoesCustomView extends ConstraintLayout {
     private void init(Context context){
         binding = CustomViewEscolherPrestacaoBinding.inflate(LayoutInflater.from(context), this, true);
         adapter = new PrestacoesAdapter();
-        binding.installments.setAdapter(adapter);
+        binding.prestacoes.setAdapter(adapter);
     }
 
     public void submitList(List<Prestacao> prestacoes){

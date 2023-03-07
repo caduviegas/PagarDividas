@@ -21,7 +21,7 @@ public class PrestacoesAdapter extends ListAdapter<Prestacao, PrestacoesAdapter.
     public static final DiffUtil.ItemCallback<Prestacao> DIFF_CALLBACK = new DiffUtil.ItemCallback<Prestacao>() {
         @Override
         public boolean areItemsTheSame(@NonNull Prestacao oldItem, @NonNull Prestacao newItem) {
-            return false;
+            return oldItem == newItem;
         }
 
         @SuppressLint("DiffUtilEquals")
@@ -56,9 +56,9 @@ public class PrestacoesAdapter extends ListAdapter<Prestacao, PrestacoesAdapter.
         }
 
         void bind(Prestacao prestacao) {
-            binding.value.setText(prestacao.getValue());
-            binding.date.setText(prestacao.getDate());
-            binding.description.setText(prestacao.getDescription());
+            binding.valor.setText(prestacao.getValue());
+            binding.data.setText(prestacao.getDate());
+            binding.descricao.setText(prestacao.getDescription());
         }
     }
 }

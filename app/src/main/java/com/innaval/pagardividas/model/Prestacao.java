@@ -11,34 +11,34 @@ import java.util.List;
 public class Prestacao implements MainContrato.MainModel.PrestacaoModel {
 
     @StringRes
-    private int value;
+    private int valor;
 
     @StringRes
-    private int date;
+    private int data;
 
     @StringRes
-    private int description;
+    private int descricao;
 
     public Prestacao(){
 
     }
 
-    public Prestacao(int value, int date, int description){
-        this.value = value;
-        this.date = date;
-        this.description = description;
+    public Prestacao(int valor, int data, int descricao){
+        this.valor = valor;
+        this.data = data;
+        this.descricao = descricao;
     }
 
     public int getValue(){
-        return value;
+        return valor;
     }
 
     public int getDate(){
-        return date;
+        return data;
     }
 
     public int getDescription(){
-        return description;
+        return descricao;
     }
 
     @Override
