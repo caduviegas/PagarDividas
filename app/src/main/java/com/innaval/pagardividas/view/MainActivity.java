@@ -1,8 +1,10 @@
-package com.innaval.pagardividas;
+package com.innaval.pagardividas.view;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.innaval.pagardividas.R;
 
 public class MainActivity extends AppCompatActivity {
 

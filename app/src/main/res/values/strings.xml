@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">PagarDividas</string>
+
+    // Escolher Prestação
+    <string name="escolher_prestacao">Parcelas escolhidas</string>
+    <string name="escolher_prestacao_item_valor_um">R$ 1.250,63</string>
+    <string name="escolher_prestacao_item_data_um">15/07/2018</string>
+    <string name="escolher_prestacao_item_descricao_um">Reduzido para R$ 169,40</string>
+    <string name="escolher_prestacao_item_valor_dois">R$ 250,63</string>
+    <string name="escolher_prestacao_item_data_dois">15/06/2017</string>
+    <string name="escolher_prestacao_item_descricao_dois">Saldo insuficiente para pagar.</string>
 </resources>
