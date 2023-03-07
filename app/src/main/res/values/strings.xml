@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">PagarDividas</string>
+    <string name="finalizar">Concluir</string>
+
 
     // Escolher Prestação
     <string name="escolher_prestacao">Parcelas escolhidas</string>
@@ -9,4 +11,30 @@
     <string name="escolher_prestacao_item_valor_dois">R$ 250,63</string>
     <string name="escolher_prestacao_item_data_dois">15/06/2017</string>
     <string name="escolher_prestacao_item_descricao_dois">Saldo insuficiente para pagar.</string>
+
+    //Resumo Pagamento
+    <string name="resumo_pagamento">Resumo do pagamento</string>
+    <string name="resumo_prestacoes_pagamento">Parcelas</string>
+    <string name="resumo_data_prestacoes_pagamento">Data do Pagamento</string>
+    <string name="resumo_pagamento_total">Total:</string>
+    <string name="resumo_pagamento_credito">Crédito</string>
+    <string name="resumo_pagamento_taxa">Taxa (%)</string>
+    <string name="resumo_pagamento_pago">Pago</string>
+    <string name="resumo_pagamento_valor_restante">Valor Restando</string>
+    <string name="resumo_pagamento_um">R$ 1.501,26</string>
+    <string name="resumo_pagamento_dois">R$ 59,25</string>
+    <string name="resumo_pagamento_tres">3,00</string>
+    <string name="resumo_pagamento_quatro">1.021,98</string>
+    <string name="resumo_pagamento_cinco">R$ 479,28</string>
+
+    // Pagamento
+    <string name="pagamento">Pagamentos</string>
+    <string name="dinheiro">Dinheiro</string>
+    <string name="cheque">Cheque</string>
+    <string name="adicionar_pagamento">Adicionar Pagamento</string>
+    <string name="valor_um_pagamento">R$ 340,59</string>
+    <string name="data_um_pagamento">17/07/2018</string>
+    <string name="valor_item_dois_tres_pagamento">R$ 340,66</string>
+    <string name="data_item_dois_tres_pagamento">27/07/2018</string>
+    <string name="pagamentos_apos_pagamento">Pepinos após pagamentos</string>
 </resources>
