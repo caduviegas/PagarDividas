@@ -8,7 +8,7 @@
     android:padding="@dimen/dimen_16">
 
     <androidx.appcompat.widget.AppCompatTextView
-        android:id="@+id/title"
+        android:id="@+id/titulo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/resumo_pagamento"
@@ -26,30 +26,30 @@
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/title">
+        app:layout_constraintTop_toBottomOf="@id/titulo">
 
         <androidx.appcompat.widget.AppCompatImageView
-            android:id="@+id/image"
+            android:id="@+id/imagem"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/ic_resume_payments"/>
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/container_description_texts"
+            android:id="@+id/descricao_texto_container"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/dimen_16"
             android:orientation="vertical">
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/installment"
+                android:id="@+id/prestacoes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/resumo_prestacoes_pagamento"
                 android:textColor="@color/blue_secondary" />
 
             <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/date"
+                android:id="@+id/data"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_8"
@@ -61,7 +61,7 @@
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/resume_payments"
+        android:id="@+id/resumo_pagamentos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/dimen_16"
