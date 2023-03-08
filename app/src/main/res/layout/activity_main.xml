@@ -45,5 +45,7 @@
                 android:layout_marginTop="@dimen/dimen_16" />
 
         </androidx.appcompat.widget.LinearLayoutCompat>
+
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,6 +10,7 @@ import com.innaval.pagardividas.model.Pagamento;
 import com.innaval.pagardividas.model.Prestacao;
 import com.innaval.pagardividas.model.ResumoPagamentos;
 import com.innaval.pagardividas.presenter.MainPresenter;
+import com.innaval.pagardividas.view.MainContrato;
 
 import java.util.List;
 

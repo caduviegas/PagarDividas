@@ -56,9 +56,9 @@ public class PrestacoesAdapter extends ListAdapter<Prestacao, PrestacoesAdapter.
         }
 
         void bind(Prestacao prestacao) {
-            binding.valor.setText(prestacao.getValue());
-            binding.data.setText(prestacao.getDate());
-            binding.descricao.setText(prestacao.getDescription());
+            binding.valor.setText(prestacao.getValor());
+            binding.data.setText(prestacao.getData());
+            binding.descricao.setText(prestacao.getDescricao());
         }
     }
 }

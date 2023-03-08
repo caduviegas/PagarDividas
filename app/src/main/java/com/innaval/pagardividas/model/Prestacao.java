@@ -12,41 +12,38 @@ public class Prestacao implements MainContrato.MainModel.PrestacaoModel {
 
     @StringRes
     private int valor;
-
     @StringRes
     private int data;
-
     @StringRes
     private int descricao;
 
-    public Prestacao(){
-
+    public Prestacao() {
     }
 
-    public Prestacao(int valor, int data, int descricao){
+    public Prestacao(int valor, int data, int descricao) {
         this.valor = valor;
         this.data = data;
         this.descricao = descricao;
     }
 
-    public int getValue(){
+    public int getValor() {
         return valor;
     }
 
-    public int getDate(){
+    public int getData() {
         return data;
     }
 
-    public int getDescription(){
+    public int getDescricao() {
         return descricao;
     }
 
     @Override
     public List<Prestacao> getPrestacoes() {
-        List<Prestacao> prestacao = new ArrayList<>();
-        prestacao.add(new Prestacao(R.string.escolher_prestacao_item_valor_um, R.string.escolher_prestacao_item_data_um, R.string.escolher_prestacao_item_descricao_um));
-        prestacao.add(new Prestacao(R.string.escolher_prestacao_item_valor_dois, R.string.escolher_prestacao_item_data_dois,R.string.escolher_prestacao_item_descricao_dois));
+        List<Prestacao> prestacoes = new ArrayList<>();
+        prestacoes.add(new Prestacao(R.string.escolher_prestacao_item_valor_um, R.string.escolher_prestacao_item_data_um, R.string.escolher_prestacao_item_descricao_um));
+        prestacoes.add(new Prestacao(R.string.escolher_prestacao_item_valor_dois, R.string.escolher_prestacao_item_data_dois, R.string.escolher_prestacao_item_descricao_dois));
 
-        return prestacao;
+        return prestacoes;
     }
 }
