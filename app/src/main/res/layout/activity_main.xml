@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content" />
 
             <com.innaval.pagardividas.view.componentes.prestacoes.PrestacoesCustomView
-                android:id="@+id/prestacoes"
+                android:id="@+id/prestacoes_custom_view"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/dimen_16" />

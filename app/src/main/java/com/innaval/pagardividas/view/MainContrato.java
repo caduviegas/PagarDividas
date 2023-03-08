@@ -9,28 +9,28 @@ import java.util.List;
 public interface MainContrato {
 
     interface MainView {
-        void mostrarGetPrestacoes(List<Prestacao> prestacao);
 
         void mostrarResumoPagamentos(ResumoPagamentos resumoPagamentos);
+        void mostrarGetPrestacoes(List<Prestacao> prestacao);
 
         void mostrarPagamentos(List<Pagamento> pagamentos);
     }
 
     interface MainPresenter {
-        void getPrestacoes();
+
         void getResumoPagamentos();
+        void getPrestacoes();
         void getPagamentos();
 
     }
 
     interface MainModel {
 
-        interface PrestacaoModel {
-            List<Prestacao> getPrestacoes();
-        }
-
         interface ResumoPagamentosModel{
             ResumoPagamentos getResumoPagamentos();
+        }
+        interface PrestacaoModel {
+            List<Prestacao> getPrestacoes();
         }
 
         interface PagamentosModel{

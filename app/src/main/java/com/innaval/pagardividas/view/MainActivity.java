@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements MainContrato.Main
 
     @Override
     public void mostrarGetPrestacoes(List<Prestacao> prestacoes) {
-        binding.prestacoes.submitList(prestacoes);
+        binding.prestacoesCustomView.submitList(prestacoes);
     }
 
     @Override
