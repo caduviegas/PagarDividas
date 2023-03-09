@@ -11,6 +11,7 @@ public interface MainContrato {
     interface MainView {
 
         void mostrarResumoPagamentos(ResumoPagamentos resumoPagamentos);
+
         void mostrarGetPrestacoes(List<Prestacao> prestacao);
 
         void mostrarPagamentos(List<Pagamento> pagamentos);
@@ -19,21 +20,24 @@ public interface MainContrato {
     interface MainPresenter {
 
         void getResumoPagamentos();
+
         void getPrestacoes();
+
         void getPagamentos();
 
     }
 
     interface MainModel {
 
-        interface ResumoPagamentosModel{
+        interface ResumoPagamentosModel {
             ResumoPagamentos getResumoPagamentos();
         }
+
         interface PrestacaoModel {
             List<Prestacao> getPrestacoes();
         }
 
-        interface PagamentosModel{
+        interface PagamentosModel {
             List<Pagamento> getPagamentos();
         }
     }
